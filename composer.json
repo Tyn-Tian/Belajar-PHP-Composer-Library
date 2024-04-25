@@ -1,0 +1,19 @@
+{
+    "name": "christian/belajar-php-composer-library",
+    "description": "Belajar PHP Composer Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Christian\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian",
+            "email": "kristian2015ok@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
